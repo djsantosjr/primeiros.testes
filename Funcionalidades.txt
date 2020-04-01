@@ -43,5 +43,14 @@ Modifique o acesso inicial para a pasta destino.
 
 11) git log --pretty=oneline - Mostra os dados do último commit atualizado, sem mostrar hora, quem fez, local e todos os outros dados
 
+12) git commit --amend -m ""
+	Função para editar um commit quando esquecemos de algum arquivo
+	12.1) Primeiro vc adiciona o arquivo ao espaço.
+		git add .
+	12.2) Posteriormente você dá o comando git commit --amend -m "" adicionando a alteração para o commit que esqueceu de algo
+
+13) git reset HEAD (nome do arquivo) - para retirar o arquivo que você não quer que seja adicionado
+
+
 
 	
