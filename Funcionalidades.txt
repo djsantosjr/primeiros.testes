@@ -6,14 +6,13 @@ Acesse o GitBash
 	Configura o nome do usuário
 2) git config --global user.email "e-mail padrão"
 	Configura o e-mail padrão do usuário
+	Obs.: 	*Para ter acesso direto mais rapido sempre para as tas que está estudando.
+		*Mude diretamente no local, procure o GitBash, acesse as propriedades.
+		*Modifique o acesso inicial para a pasta destino.
+	Obs.: 	*Se não funcionar de primeira, na local destino tem um configuração a mais --cd-to-home.
+		*Retire essa opção que GitBash irá abrir sempre na pasta destino selecionada.
 
-Obs.: para ter acesso direto mais rapido sempre para as tas que está estudando.
-Mude diretamente no local, procure o GitBash, acesse as propriedades.
-Modifique o acesso inicial para a pasta destino.
-	Obs.: 	se não funcionar de primeira, na local destino tem um configuração a mais --cd-to-home.
-		Retire essa opção que GitBash irá abrir sempre na pasta destino selecionada.
-
-3) git add - Funcional com mais três funções.
+3) git add -> 	Funcional com mais três funções.
 	3.1) 	git add (nome do arquivo: Ex.: documento.txt)
 		Ele adicionará somente o arquivo selecionado.
 	3.2) 	git add (extensão do arquivo: Ex: .txt)
@@ -21,36 +20,41 @@ Modifique o acesso inicial para a pasta destino.
 	3.3)	git add .
 		Ele adicionará todos os arquivos existente na página master
 
-4) git status - Mostrará o todos os arquivos que serão adicionados
+4) git status -> Mostrará o todos os arquivos que serão adicionados
 
-5) git commit - Adicionará todos os arquivos que estavam preparados na área intermediaria.
-	Obs: 	Quando for adicionar um git commit sempre colocar o comando -m ""
-		Esse comando você fornecerá a informação do que foi modificado nessa ultima alteração feita no sistema.
+5) git commit -> Adicionará todos os arquivos que estavam preparados na área intermediaria.
+	Obs: 	*Quando for adicionar um git commit sempre colocar o comando -m ""
+		*Esse comando você fornecerá a informação do que foi modificado nessa ultima alteração feita no sistema.
 
-6) .gitignore - Comando usar quando vc quer esconder determinada pasta do repositorio, ou determinado arquivo.
-		Abrir o bloco de notas, colocar para salvar como a extensão .gitignore, e a opção todos os arquivos
-		Tudo o que você colocar dentro do arquivo ou então selecionar determinados arquivos serão ignorados pelo o GIT
+6) .gitignore -> Comando usar quando vc quer esconder determinada pasta do repositorio, ou determinado arquivo.
+		*Abrir o bloco de notas, colocar para salvar como a extensão .gitignore, e a opção todos os arquivos
+		*Tudo o que você colocar dentro do arquivo ou então selecionar determinados arquivos serão ignorados pelo o GIT
 
-7) git diff - Mostra o que está no seu direitorio de trabalhado e o que vai ser modificado
+7) git diff -> Mostra o que está no seu direitorio de trabalhado e o que vai ser modificado
 
-8) git log - Mostra todas as alterações detalhadamente
+8) git log -> Mostra todas as alterações detalhadamente
 
-9) git log -p - Mostra todas as alterações mais detalhado ainda
-	git log -p -1 - Mostra de maneira detalhada a ultima alteração.
-			Obs: podendo mudar a variavel, exemplo - 2 ele mostra as duas ultimas alterações
+9) git log -p -> Mostra todas as alterações mais detalhado ainda
+		*git log -p -1 - Mostra de maneira detalhada a ultima alteração.
+		Obs: Podendo mudar a variavel, exemplo - 2 ele mostra as duas ultimas alterações
 
-10) gitk - Mostra o painel grafico do gitbash, onde consegue observar varias alterações de maneira mais didatica
+10) gitk -> Mostra o painel grafico do gitbash, onde consegue observar varias alterações de maneira mais didatica
 
 11) git log --pretty=oneline - Mostra os dados do último commit atualizado, sem mostrar hora, quem fez, local e todos os outros dados
 
 12) git commit --amend -m ""
-	Função para editar um commit quando esquecemos de algum arquivo
-	12.1) Primeiro vc adiciona o arquivo ao espaço.
-		git add .
-	12.2) Posteriormente você dá o comando git commit --amend -m "" adicionando a alteração para o commit que esqueceu de algo
+		Função para editar um commit quando esquecemos de algum arquivo
+		12.1) 	Primeiro vc adiciona o arquivo ao espaço.
+			git add .
+		12.2) 	Posteriormente você dá o comando git commit --amend -m "" adicionando a alteração para o commit que esqueceu de algo
 
-13) git reset HEAD (nome do arquivo) - para retirar o arquivo que você não quer que seja adicionado
+13) git reset HEAD (nome do arquivo) -> para retirar o arquivo que você não quer que seja adicionado
 
+14) git checkout -- (nome do arquivo) -> Quando vc volta as funções anteriores do arquivo
 
+15) git tag -> 	Cria uma tag (tipos de versões)
+		git tag -a (número da versão) -m "" -> Coloca no nome da versão e fornece todas as informações disponiveis
 
+		
+		
 	
