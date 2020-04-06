@@ -48,13 +48,21 @@ Acesse o GitBash
 			git add .
 		12.2) 	Posteriormente você dá o comando git commit --amend -m "" adicionando a alteração para o commit que esqueceu de algo
 
-13) git reset HEAD (nome do arquivo) -> para retirar o arquivo que você não quer que seja adicionado
+13) git reset HEAD (nome do arquivo) -> para retirar o arquivo que você não quer que seja adicionado no commit
 
 14) git checkout -- (nome do arquivo) -> Quando vc volta as funções anteriores do arquivo
 
 15) git tag -> 	Cria uma tag (tipos de versões)
 		git tag -a (número da versão) -m "" -> Coloca no nome da versão e fornece todas as informações disponiveis
+		git tag -a (número da versão) chave de acesso -m "" -> Você consegue pegar uma versão anterior e versionar ela, definir uma versão para ela
+			*Fazengo da seguinte maneira
+				15.1 Comando: git log --pretty-oneline: para ter acessos a todas as versões e a chave de acesso
+				15.2 Comadno: git tag -a (número da versão da tag) (Chave de acesso do log) -m "" (para escrever a mensagem e definir o que fazer)
 
-		
-		
-	
+16) git remote add origin (local onde vai hospedar) -> Comando que você utiliza para determinar o link do github ou site onde irá hospedar
+
+17) git push origin master -> É o comando que você utiliza para enviar os arquivos para o GitHub
+
+18) git show (Versão que deseja) -> Para ver o conteúdo da versão desejada
+
+
