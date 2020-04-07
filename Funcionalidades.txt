@@ -51,6 +51,7 @@ Acesse o GitBash
 13) git reset HEAD (nome do arquivo) -> para retirar o arquivo que você não quer que seja adicionado no commit
 
 14) git checkout -- (nome do arquivo) -> Quando vc volta as funções anteriores do arquivo
+	git checkout (Escolher a tag versão) ->g
 
 15) git tag -> 	Cria uma tag (tipos de versões)
 		git tag -a (número da versão) -m "" -> Coloca no nome da versão e fornece todas as informações disponiveis
@@ -65,4 +66,15 @@ Acesse o GitBash
 
 18) git show (Versão que deseja) -> Para ver o conteúdo da versão desejada
 
+19) git checkout master -> Para voltar ao normal do que estamos mechendo
 
+20) git tag -d (versão da tag que vou deletar)
+
+21) git branch (e determina o que irá fazer)
+	Isso, quando você quer fazer uma atualização em determinado local, mas sem prejudicar todo o projeto.
+	21.1) 	git checkout (nome do branch) Você irá direto utilizar o teste que iniciou
+		*Para voltar a versão original sem as ultima alterações é só usar o comando git checkout master, que volta para a configuração normal
+	21.2) SE ESTÁ VENDO ESSA IMAGEM É PORQUE O COMANDO BRANCH FUNCIONOU
+22) git merge Para trazer as funções de teste que você fez no branch para o branch master
+
+	*Obs: Você sempre tem que estar no local onde vc quer fazer as alterações, Ex.: /Documents/Cursos/git/local (master)
