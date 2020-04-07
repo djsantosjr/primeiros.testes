@@ -75,6 +75,10 @@ Acesse o GitBash
 	21.1) 	git checkout (nome do branch) Você irá direto utilizar o teste que iniciou
 		*Para voltar a versão original sem as ultima alterações é só usar o comando git checkout master, que volta para a configuração normal
 	21.2) SE ESTÁ VENDO ESSA IMAGEM É PORQUE O COMANDO BRANCH FUNCIONOU
+	21.3)	git branch -> Lista todos os branchs
+	21.4)	git branch -d (nome do branch) -> Você deleta o branch selecionado
+	21.5)	Observar o erros que podem acontecer quando trabalhar em equipe, com varios branchs em funcionamento
+
 22) git merge Para trazer as funções de teste que você fez no branch para o branch master
 
 	*Obs: Você sempre tem que estar no local onde vc quer fazer as alterações, Ex.: /Documents/Cursos/git/local (master)
